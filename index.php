@@ -1,6 +1,7 @@
        <?php get_header(); ?>
 
        <main>
+
             <div id="particles-js">
                 <div id="#wrapper">
 
