@@ -1,0 +1,1316 @@
+/*
+Theme Name: Kaisei Yasuzaki
+Theme URI:
+Author: Kaisei Yasuzaki
+Author URI:
+Description: 幾何学アニメーションを取り入れたシンプルなワンカラムサイト
+Version: 1.0
+*/
+@media screen and (min-width:980px) {
+
+  /*============================
+#leftcontent
+============================*/
+  main section.content div#leftcontent {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main section.content div#leftcontent img {
+    display: block;
+    width: 250px;
+    height: 250px;
+  }
+
+  /*============================
+#rightcontent
+============================*/
+  main section.content div#rightcontent {
+    width: 50%;
+    text-align: center;
+  }
+
+  main section.content div#rightcontent h1 {
+    width: 100%;
+    margin: 135px auto 27px;
+    text-align: center;
+  }
+
+  main section.content div#rightcontent h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  main section.content div#rightcontent h2:nth-of-type(1) {
+    margin-bottom: 27px;
+  }
+
+  main section.content div#rightcontent h2:nth-of-type(2) {
+    margin: 30px auto;
+  }
+
+
+  /*============================
+rightcontent-text
+============================*/
+
+  main section.content div#rightcontent .right-text {
+    display: flex;
+    width: 400px;
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  /*============================
+.c1-left-text
+============================*/
+
+  main section.content div#rightcontent .right-text p.c1-left-text {
+    width: 98px;
+    height: 115px;
+  }
+
+  main section.content div#rightcontent .right-text p.c1-right-text {
+    width: 299px;
+    height: 114px;
+  }
+
+
+  /*============================
+.c1-right-text
+============================*/
+
+  main section.content div#rightcontent .right-text p.c1-right-text {
+    display: flex;
+  }
+
+  main section.content div#rightcontent .right-bottom-text {
+    width: 400px;
+    text-align: left;
+    margin: 0 auto 100px;
+  }
+
+  /*============================
+#topcontent
+============================*/
+  main section.content div#topcontent {
+    display: flex;
+    width: 100%;
+    height: 540px;
+  }
+
+  /*============================
+#topleft
+============================*/
+  main section.content div#topcontent div#topleft {
+    width: 800px;
+    height: 540px;
+  }
+
+  main section.content div#topcontent div#topleft img {}
+
+  /*============================
+#topright
+============================*/
+  main section.content div#topcontent div#topright {
+    width: calc(100% - 800px);
+    text-align: center;
+  }
+
+  main section.content div#topcontent div#topright h2 {
+    width: 100%;
+    margin: 90px auto;
+  }
+
+  main section.content div#topcontent div#topright p {
+    width: 100%;
+  }
+
+  /*============================
+#bottomcontent
+============================*/
+  main section.content div#bottomcontent {
+    display: flex;
+    width: 100%;
+    height: 540px;
+  }
+
+  /*============================
+#bottomleft
+============================*/
+  main section.content div#bottomcontent div#bottomleft {
+    width: calc(100% - 800px);
+    text-align: center;
+  }
+
+  main section.content div#bottomcontent div#bottomleft h2 {
+    width: 100%;
+    margin: 90px auto;
+  }
+
+  main section.content div#bottomcontent div#bottomleft p {
+    width: 100%;
+  }
+
+  /*============================
+#bottomright
+============================*/
+  main section.content div#bottomcontent div#bottomright {}
+
+  main section.content div#bottomcontent div#bottomright img {}
+
+  /*============================
+#c2-h2-1
+============================*/
+  main section.content h2#c2-h2-1 {
+    width: 100%;
+    text-align: center;
+    margin: 50px auto;
+  }
+
+  main section.content p {
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  /*============================
+#c2-h2-2
+============================*/
+  main section.content h2#c2-h2-2 {
+    width: 100%;
+    text-align: center;
+    margin: 50px auto;
+  }
+
+  main section.content ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 145px;
+    width: 900px;
+    margin: 0 auto;
+  }
+
+  main section.content ul li {
+    list-style: none;
+    width: 200px;
+    height: auto;
+  }
+
+  main section.content ul li img, .blogimg{
+    display: block;
+    width: 200px;
+    height: 200px;
+  }
+
+  main section.content ul li h3 {
+    text-align: center;
+    color: #ffffff;
+    height: 70px;
+    line-height: 70px;
+  }
+
+  main section.content h2 {
+    width: 700px;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  main section.content p:nth-child(2) {
+    margin-bottom: 50px;
+  }
+
+  /*============================
+#blogs
+============================*/
+  main section.content div#blogs {
+    width: 920px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  main section.content div#blogs dl {
+    width: 100%;
+    height: 300px;
+    background-color: #ffffff;
+    border-top: solid 1px black;
+  }
+
+  main section.content div#blogs dl a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  main section.content div#blogs dl a img {
+    width: 253px;
+    height: 262px;
+    margin: 23px 18px;
+    border: solid 1px black;
+  }
+
+  /*============================
+#blogright
+============================*/
+  main section.content div#blogs dl a div#blogright {
+    width: calc(100% - 289px);
+    height: 262px;
+    margin: 23px 0;
+  }
+
+  main section.content div#blogs dl a div#blogright dt {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+    text-align: center;
+  }
+
+  /*============================
+#blog-dd1
+============================*/
+  main section.content div#blogs dl a div#blogright dd#blog-dd1 {
+    width: calc( 100% - 200px );
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+
+    margin: 30px 100px;
+    min-height: 138px;
+  }
+
+  /*============================
+#blog-dd2
+============================*/
+  main section.content div#blogs dl a div#blogright dd#blog-dd2 {
+    width: 70%;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+
+    color: #000000;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  main section.content div#blogs dl a div#blogright dd#blog-dd2 img {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    border: none;
+  }
+
+   .margin-bottom {
+     margin-bottom: 20px !important;
+   }
+
+  main section.content form {
+    width: 1100px;
+    height: 746px;
+  }
+
+  main section.content form label {
+    display: flex;
+    width: 100%;
+    height: 110px;
+    border-top: solid 1px #ffffff;
+  }
+
+  main section.content form span {
+    width: 70px;
+    height: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    /* ボックスの高さと同一 */
+
+
+    color: #000000;
+    background-color: #FFA4A4;
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  main section.content form label h3 {
+    width: 220px;
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+
+    color: #ffffff;
+    margin: 30px 0 0 91px;
+  }
+
+  main section.content form label input {
+    width: 600px;
+    height: 49px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    margin: 30px 0;
+  }
+
+  /*============================
+#textlabel
+============================*/
+  main section.content form label#textlabel {
+    height: auto;
+  }
+
+  main section.content form label#textlabel h3 {
+    margin-left: 161px
+  }
+
+  main section.content form label#textlabel textarea {
+    display: block;
+    width: 600px;
+    height: 150px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    margin: 30px 0;
+  }
+
+  main section.content form button {
+    display: block;
+    width: 120px;
+    height: 40px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    text-align: center;
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    /* ボックスの高さと同一 */
+
+
+    color: #000000;
+    margin: 40px auto;
+
+  }
+
+   main section.content #semdbutton {
+     display: block;
+     width: 120px;
+     height: 40px;
+
+     background: #FFFFFF;
+     border: 1px solid #000000;
+     text-align: center;
+     font-family: 'Kaisei Decol';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 40px;
+     /* ボックスの高さと同一 */
+
+
+     color: #000000;
+     margin: 40px auto;
+
+   }
+}
+
+@media screen and (min-width:768px) and (max-width:979px) {
+
+  /*============================
+#leftcontent
+============================*/
+  main section.content div#leftcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+  }
+
+  main section.content div#leftcontent img {
+    display: block;
+    width: 200px;
+    height: 200px;
+  }
+
+  /*============================
+#rightcontent
+============================*/
+  main section.content div#rightcontent {
+    width: 100%;
+    text-align: center;
+  }
+
+  main section.content div#rightcontent h1 {
+    width: 100%;
+    margin: 20px auto 20px;
+    text-align: center;
+  }
+
+  main section.content div#rightcontent h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  main section.content div#rightcontent h2:nth-of-type(1) {
+    margin-bottom: 20px;
+  }
+
+  main section.content div#rightcontent h2:nth-of-type(2) {
+    margin: 20px auto;
+  }
+
+
+  /*============================
+rightcontent-text
+============================*/
+
+  main section.content div#rightcontent .right-text {
+    display: flex;
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  /*============================
+.c1-left-text
+============================*/
+
+  main section.content div#rightcontent .right-text p.c1-left-text {
+    width: 60px;
+    height: 115px;
+  }
+
+  main section.content div#rightcontent .right-text p.c1-right-text {
+    width: 240px;
+    height: 114px;
+  }
+
+
+  /*============================
+.c1-right-text
+============================*/
+
+  main section.content div#rightcontent .right-text p.c1-right-text {
+    display: flex;
+  }
+
+  main section.content div#rightcontent .right-bottom-text {
+    width: 100%;
+    text-align: left;
+    margin: 0 auto 40px;
+  }
+
+  /*============================
+#topcontent
+============================*/
+  main section.content div#topcontent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+  }
+
+  /*============================
+#topleft
+============================*/
+  main section.content div#topcontent div#topleft {
+    width: 100%;
+    height: auto;
+  }
+
+  main section.content div#topcontent div#topleft img {
+    width: 100%;
+  }
+
+  /*============================
+#topright
+============================*/
+  main section.content div#topcontent div#topright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 0 0;
+    height: calc(100vh - 900px);
+    text-align: center;
+    margin-bottom: 200px;
+  }
+
+  main section.content div#topcontent div#topright h2 {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  main section.content div#topcontent div#topright p {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /*============================
+#bottomcontent
+============================*/
+  main section.content div#bottomcontent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+  }
+
+  main section.content div#bottomcontent img {
+    width: 100%;
+  }
+
+  /*============================
+#bottomleft
+============================*/
+  main section.content div#bottomcontent div#bottomleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 0 0;
+    height: calc(100vh - 900px);
+    text-align: center;
+    margin-bottom: 200px;
+  }
+
+  main section.content div#bottomcontent div#bottomleft h2 {
+    width: 100%;
+    margin: 40px auto;
+  }
+
+  main section.content div#bottomcontent div#bottomleft p {
+    width: 80%;
+    margin: 0 auto
+  }
+
+  /*============================
+#bottomright
+============================*/
+  main section.content div#bottomcontent div#bottomright {
+    display: none;
+  }
+
+  /*============================
+#c2-h2-1
+============================*/
+  main section.content h2#c2-h2-1 {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  main section.content p {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /*============================
+#c2-h2-2
+============================*/
+  main section.content h2#c2-h2-2 {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  main section.content ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 50px;
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  main section.content ul li {
+    list-style: none;
+    width: 200px;
+    height: auto;
+  }
+
+  main section.content ul li img, .blogimg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  main section.content ul li h3 {
+    text-align: center;
+    color: #ffffff;
+    height: 70px;
+    line-height: 70px;
+  }
+
+  main section.content h2 {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  main section.content p:nth-child(2) {
+    margin-bottom: 50px;
+  }
+
+  /*============================
+#blogs
+============================*/
+  main section.content div#blogs {
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  main section.content div#blogs dl {
+    width: 100%;
+    height: 125px;
+    background-color: #ffffff;
+    border-top: solid 1px black;
+  }
+
+  main section.content div#blogs dl a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  main section.content div#blogs dl a img {
+    width: 100px;
+    height: 100px;
+    margin: 12.5px 12.5px;
+    border: solid 1px black;
+  }
+
+  /*============================
+#blogright
+============================*/
+  main section.content div#blogs dl a div#blogright {
+    width: calc(100% - 125px);
+    height: 100px;
+    margin: 12.5px 12.5px 12.5px 0;
+  }
+
+  main section.content div#blogs dl a div#blogright dt {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #000000;
+    text-align: center;
+  }
+
+  /*============================
+#blog-dd1
+============================*/
+  main section.content div#blogs dl a div#blogright dd#blog-dd1 {
+    width: 100%;
+    height: 53px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #000000;
+
+    margin: 10px 0;
+    min-height: auto;
+  }
+
+  /*============================
+#blog-dd2
+============================*/
+  main section.content div#blogs dl a div#blogright dd#blog-dd2 {
+
+    width: 70%;
+    height: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+
+    color: #000000;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  main section.content div#blogs dl a div#blogright dd#blog-dd2 img {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    border: none;
+  }
+
+   .margin-bottom {
+     margin-bottom: 20px !important;
+   }
+
+  main section.content form {
+    width: 100%;
+    height: auto;
+    padding-bottom: 1px;
+  }
+
+  main section.content form label {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    border-top: solid 1px #ffffff;
+  }
+
+  main section.content form span {
+    width: 50px;
+    height: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    /* ボックスの高さと同一 */
+
+
+    color: #000000;
+    background-color: #FFA4A4;
+    text-align: center;
+    margin: 10px 15px;
+  }
+
+  main section.content form label h3 {
+    width: 220px;
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+
+    color: #ffffff;
+    margin: 10px 0 0 0;
+  }
+
+  main section.content form label input {
+    width: 100%;
+    height: 30px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    margin: 0 0 20px 0;
+  }
+
+  /*============================
+#textlabel
+============================*/
+  main section.content form label#textlabel {
+    height: auto;
+  }
+
+  main section.content form label#textlabel h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  main section.content form label#textlabel textarea {
+    display: block;
+    width: 700px;
+    height: 100px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    margin: 30px 0;
+  }
+
+  main section.content form button {
+    display: block;
+    width: 120px;
+    height: 40px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    text-align: center;
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    /* ボックスの高さと同一 */
+
+
+    color: #000000;
+    margin: 20px auto;
+
+  }
+
+   main section.content #semdbutton {
+     display: block;
+     width: 120px;
+     height: 40px;
+
+     background: #FFFFFF;
+     border: 1px solid #000000;
+     text-align: center;
+     font-family: 'Kaisei Decol';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 40px;
+     /* ボックスの高さと同一 */
+
+
+     color: #000000;
+     margin: 20px auto;
+
+   }
+
+
+}
+
+@media screen and (min-width:0px) and (max-width:767px) {
+
+  /*============================
+#leftcontent
+============================*/
+  main section.content div#leftcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+  }
+
+  main section.content div#leftcontent img {
+    display: block;
+    width: 80px;
+    height: 80px;
+  }
+
+  /*============================
+#rightcontent
+============================*/
+  main section.content div#rightcontent {
+    width: 100%;
+    text-align: center;
+  }
+
+  main section.content div#rightcontent h1 {
+    width: 100%;
+    margin: 20px auto 20px;
+    text-align: center;
+  }
+
+  main section.content div#rightcontent h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  main section.content div#rightcontent h2:nth-of-type(1) {
+    margin-bottom: 20px;
+  }
+
+  main section.content div#rightcontent h2:nth-of-type(2) {
+    margin: 20px auto;
+  }
+
+
+  /*============================
+rightcontent-text
+============================*/
+
+  main section.content div#rightcontent .right-text {
+    display: flex;
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  /*============================
+.c1-left-text
+============================*/
+
+  main section.content div#rightcontent .right-text p.c1-left-text {
+    width: 60px;
+    height: 115px;
+  }
+
+  main section.content div#rightcontent .right-text p.c1-right-text {
+    width: 240px;
+    height: 114px;
+  }
+
+
+  /*============================
+.c1-right-text
+============================*/
+
+  main section.content div#rightcontent .right-text p.c1-right-text {
+    display: flex;
+  }
+
+  main section.content div#rightcontent .right-bottom-text {
+    width: 100%;
+    text-align: left;
+    margin: 0 auto 40px;
+  }
+
+  /*============================
+#topcontent
+============================*/
+  main section.content div#topcontent {
+    width: 100%;
+    height: auto;
+  }
+
+  /*============================
+#topleft
+============================*/
+  main section.content div#topcontent div#topleft {
+    width: 100%;
+    height: auto;
+  }
+
+  main section.content div#topcontent div#topleft img {
+    width: 100%;
+  }
+
+  /*============================
+#topright
+============================*/
+  main section.content div#topcontent div#topright {
+    width: 100%;
+    text-align: center;
+  }
+
+  main section.content div#topcontent div#topright h2 {
+    width: 100%;
+    margin: 40px auto;
+  }
+
+  main section.content div#topcontent div#topright p {
+    width: 100%;
+  }
+
+  /*============================
+#bottomcontent
+============================*/
+  main section.content div#bottomcontent {
+    width: 100%;
+    height: auto;
+  }
+
+  main section.content div#bottomcontent img {
+    width: 100%;
+  }
+
+  /*============================
+#bottomleft
+============================*/
+  main section.content div#bottomcontent div#bottomleft {
+    width: 100%;
+    text-align: center;
+  }
+
+  main section.content div#bottomcontent div#bottomleft h2 {
+    width: 100%;
+    margin: 40px auto;
+  }
+
+  main section.content div#bottomcontent div#bottomleft p {
+    width: 100%;
+  }
+
+  /*============================
+#bottomright
+============================*/
+  main section.content div#bottomcontent div#bottomright {
+    display: none;
+  }
+
+  /*============================
+#c2-h2-1
+============================*/
+  main section.content h2#c2-h2-1 {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  main section.content p {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /*============================
+#c2-h2-2
+============================*/
+  main section.content h2#c2-h2-2 {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  main section.content ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 15px;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  main section.content ul li {
+    list-style: none;
+    width: 90px;
+    height: auto;
+  }
+
+  main section.content ul li img, .blogimg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  main section.content ul li h3 {
+    text-align: center;
+    color: #ffffff;
+    height: 70px;
+    line-height: 70px;
+  }
+
+  main section.content h2 {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  main section.content p:nth-child(2) {
+    margin-bottom: 50px;
+  }
+
+  /*============================
+#blogs
+============================*/
+  main section.content div#blogs {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  main section.content div#blogs dl {
+    width: 100%;
+    height: 125px;
+    background-color: #ffffff;
+    border-top: solid 1px black;
+  }
+
+  main section.content div#blogs dl a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  main section.content div#blogs dl a img {
+    width: 100px;
+    height: 100px;
+    margin:  12.5px 12.5px;
+    border: solid 1px black;
+  }
+
+  /*============================
+#blogright
+============================*/
+  main section.content div#blogs dl a div#blogright {
+    width: calc(100% - 125px);
+    height: 100px;
+    margin: 12.5px 0;
+  }
+
+  main section.content div#blogs dl a div#blogright dt {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #000000;
+    text-align: center;
+  }
+
+  /*============================
+#blog-dd1
+============================*/
+  main section.content div#blogs dl a div#blogright dd#blog-dd1 {
+    width: calc( 100% - 12.5px );
+    height: 53px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #000000;
+
+    margin: 10px 12.5px 10px 0;
+    min-height: auto;
+  }
+
+  /*============================
+#blog-dd2
+============================*/
+  main section.content div#blogs dl a div#blogright dd#blog-dd2 {
+    width: 100%;
+    height: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+
+    color: #000000;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  main section.content div#blogs dl a div#blogright dd#blog-dd2 img {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    border: none;
+  }
+  .margin-bottom{
+    margin-bottom: 20px!important;
+  }
+  main section.content form {
+    width: 100%;
+    height: auto;
+    padding-bottom: 1px;
+  }
+
+  main section.content form label {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    border-top: solid 1px #ffffff;
+  }
+
+  main section.content form span {
+    width: 50px;
+    height: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    /* ボックスの高さと同一 */
+
+
+    color: #000000;
+    background-color: #FFA4A4;
+    text-align: center;
+    margin: 10px 15px;
+  }
+
+  main section.content form label h3 {
+    width: 220px;
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+
+    color: #ffffff;
+    margin: 10px 0 0 0;
+  }
+
+  main section.content form label input {
+    width: 100%;
+    height: 30px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    margin: 0 0 20px 0;
+  }
+
+  /*============================
+#textlabel
+============================*/
+  main section.content form label#textlabel {
+    height: auto;
+  }
+
+  main section.content form label#textlabel h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  main section.content form label#textlabel textarea {
+    display: block;
+    width: 600px;
+    height: 100px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    margin: 30px 0;
+  }
+
+  main section.content form button {
+    display: block;
+    width: 120px;
+    height: 40px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    text-align: center;
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    /* ボックスの高さと同一 */
+
+
+    color: #000000;
+    margin: 20px auto;
+
+  }
+
+  main section.content #semdbutton {
+    display: block;
+    width: 120px;
+    height: 40px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    text-align: center;
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    /* ボックスの高さと同一 */
+
+
+    color: #000000;
+    margin: 20px auto;
+
+  }
+}
